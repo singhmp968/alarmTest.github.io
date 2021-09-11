@@ -1,0 +1,99 @@
+
+.main_div{
+	height: 100vh;
+	width: 100vw;
+	background-color: #d2eeba;
+
+}
+.main_alarm_div{
+	height: auto;
+	width: 400px;
+	border: 1px solid black;
+	position: relative;
+	left: 30%;
+	top: 20%;
+}
+.marginsClass{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+}
+.currentTime{
+	height: 100px;
+	width: 80%;
+	border: 1px solid green;
+	display: flex;
+	justify-content: center;
+
+}
+.hhmmss{
+	height: 57px;
+    width: 47px;
+    font-size: xxx-large;
+    animation: ChangeTextcolors 8s infinite ease-in-out alternate;
+}
+
+@keyframes ChangeTextcolors{
+	0%{
+		color: blue;
+	}
+	25%{
+		color: green;
+	}
+	50%{
+		color: pink;
+	}
+	75%{
+		color: cyan;
+	}
+	100%{
+		color: purple;
+	}
+}
+
+.uppdot{
+	margin-top: -3px;
+	font-size: xxx-large;
+}
+#setlarm{
+	margin-left: 44px;
+    border-radius: 5px;
+    height: 31px;
+    background-color: darkgoldenrod;
+
+}
+.set_alarm{
+	font-size: x-large;
+}
+.Alarm_Select{
+	font-size:large;
+    color: purple;
+}
+.newAlarmssection{
+	width: 100%;
+	height: auto;
+	margin-top: 15px;
+	border: 1px solid black;
+}
+.newAlarmsAndDeleteButton{
+	height: 50px;
+	width: 100%;
+	border: 1px solid green;
+	margin-top: 7px;
+	display: flex;
+	justify-content: space-evenly
+}
+.buttonheight{
+    margin-top: 11px;
+    border-radius: 5px;
+    height: 31px;
+    background-color: darkgoldenrod;
+}
+
+.newParaTahclass{
+	font-size: larger;
+    color: brown;
+}
+/*.newAlarmsAndDeleteButton button{
+	height: 50px;
+}*/
